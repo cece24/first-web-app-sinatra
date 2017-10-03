@@ -23,3 +23,7 @@ get "/favourites" do
 
   erb :favourite_links
 end
+
+get "/" do
+  redirect to ("/home")
+end
